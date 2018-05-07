@@ -1,0 +1,29 @@
+	<ion-view view-title="Dashboard" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top"   id="page-dashboard" class=" page-dashboard">
+		
+		<div class="dashboard-panel">
+			<div class="item item-title no-border item-positive-900">Anasayfa</div>
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light positive-bg ink"  ng-href="#/saglamlar_sigorta/hakkimizda" >
+					<i class="icon ion-information-circled" ></i>
+					<p>{{ "Hakkımızda" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light positive-900-bg ink"  ng-href="#/saglamlar_sigorta/acentelik" >
+					<i class="icon ion-android-bulb" ></i>
+					<p>{{ "Acenteliklerimiz" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light calm-bg ink" ng-click="openURL('mailto:info@saglamlarsigorta.com.tr')" >
+					<i class="icon ion-android-star" ></i>
+					<p>{{ "Online Teklif Al" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			
+
+		</div>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
